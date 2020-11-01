@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ACT Lab</title>
+		<meta name="description" content="ACT Lab is a research group within the McGill School of Information Studies studying, designing, and
+		building new technologies that can better accommodate a diversity of needs." />
+		<meta name="keywords" content="accessibility, aging, human centered design, HCI" />
+		<meta name="author" content="ACT Lab" />
+		<!-- Bootstrap -->
+		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.css" rel="stylesheet">
+		<link href="css/flickity.css" rel="stylesheet" >
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/queries.css" rel="stylesheet">
+		<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- open/close -->
+		<header>
+			<section class="hero">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row nav-wrapper">
+						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
+							<a href="#"><img src="current/img/ACTLabLogo.png" alt="ACT Lab Logo"></a>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
+							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+						</div>
+					</div>
+					<div class="row hero-content">
+						<div class="col-md-12">
+							<h1 class="animated fadeInDown">Our goal is to develop a new generation assistive devices and accessible technologies that
+							are sensitive to the social environments within which they will be used, and that seek to leverage and support those relationships.</h1>
+							<a href="mailto:karyn.moffatt@mcgill.ca" class="use-btn animated fadeInUp">Email Us</a>
+							<a href="#news" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		
+		<section class="featured" id="news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="col-md-4 feature-3 wp2 delay-1s">
+							<div class="feature-icon">
+								<i class="fa fa-heart"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Facebook Survey</h1>
+								<p>We are currently recruiting participants 65+ to participate in an online survey to understand their preferences for social networking sites </p>
+								<a href="https://act.mcgill.ca/SNS"
+								   class="read-more-btn">Find out more <i class="fa fa-chevron-circle-right"></i></a>
+							</div>
+						</div>
+
+						<div class="col-md-4 feature-2 wp2 delay-05s">
+							<div class="feature-icon">
+								<i class="fa fa-certificate"></i>
+							</div>
+							<div class="feature-content">
+								<h1>New Funding</h1>
+								<p>We're delighted to announce we've been awarded an NSERC Discovery Grant
+								to support research on Interactive Social Technologies for Diverse Experiences
+								of Later Life</p>
+								<a href="http://www.nserc-crsng.gc.ca/nserc-crsng/fundingdecisions-decisionsfinancement/index_eng.asp?Year=2018"
+								   class="read-more-btn">Find out more <i class="fa fa-chevron-circle-right"></i></a>
+							</div>
+						</div>
+							
+						<div class="col-md-4 feature-1 wp2">
+							<div class="feature-icon">
+								<i class="fa fa-star"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Recently Published</h1>
+								<p>Our work on accessible touch screen interaction for older adults
+								has been accepted for publication in
+								<a href="https://dl.acm.org/citation.cfm?id=J1156", target="_blank">
+								ACM Transactions on Accessible Computing.</a>. </p>
+								<a href="#publications" class="read-more-btn">Find Out More <i class="fa fa-chevron-circle-right"></i></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		
+		<section id="projects">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 nopadding features-intro-img">
+						<div class="features-bg">
+							<div class="texture-overlay"></div>
+							<div class="features-img wp1">
+								<img width="200px" src="current/img/ProjectsLogo3.png" alt="Projects Logo">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8 nopadding">
+						<div class="features-slider">
+								<ul class="slides" id="featuresSlider">
+									<li>
+										<h1>Supporting Social Interaction During Hospice</h1>
+										<p>Staying connected is a primary concern of hospice and palliative care patients and their
+										families, but managing and coordinating interaction to best meet the varying needs and
+										capabilities of patients is challenging. This project explores this space, with the long-term
+										goal of developing new technologies that address both patient and family needs.</p>
+										
+									</li>
+									<li>
+										<h1>Digital Paper-Based Communication Systems</h1>
+										<p>This project explores the use of digital paper as a platform for blending the aesthics of
+										handwritten letters with the convenience of e-mail. </p>
+										
+									</li>
+									<li>
+										<h1>Connecting Across Generations</h1>
+										<p>This project is exploring ways of fostering online relationships between grandparents and
+										college-aged grandchildren. To address divergent user needs, we are devloping a prototype
+										communication system that supports asymmetrical participation and a balance between short and
+										meaningful interctions.</p>
+									</li>
+									<li>
+										<h1>Accessible Touch Interaction</h1>
+										<p>This project aims to understand the target selection behavior on touch-screen interfaces,
+										including the impact of finger size, angle, pressure, velocity and the three-dimensional motion
+										trajectory. The outcomes of this project will inform the design of new touch-based interaction
+										technqiues and increased accessibility for a wide range of users.</p>
+									</li>
+									<li>
+										<h1>Augmentative and Alternative Communication (AAC)</h1>
+										<p>This project seeks to develop novel communication supports and improve access to technology
+										for individuals with communication impairments with aphasia. Recent subprojects include the
+										design of wearable AAC technology to enable more discreet access and the development of tools to
+										support attentional awareness during conversation. </p>
+									</li>
+
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+			
+		
+		<section class="pubs" id="publications">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+																					
+						<h1>Publications</h1>
+						
+						<p>Most publications are available through <a href="http://www.acm.org/publications/acm-author-izer-service">
+						ACM author-izer</a> or a similar service. Please <a href="mailto:karyn.moffatt@mcgil.ca">email us</a> if you require a
+						pre-print or otherwise require assitance accessing our publications. </p>
+						
+						<ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+							
+							
+						<li><h2 class="cbp-nttrigger">2019</h2><div class="cbp-ntcontent">
+						
+						<h5>  Sultana, A. and Moffatt, K. (2019).
+						<a href="https://dl.acm.org/authorize?N677074", target="_blank">
+						Effects of Aging on Small Target Selection with Touch Input.</a>
+						<em>ACM Transactions on Accessible Computing</em>,
+						12(1): 3:1&ndash;3:35. doi: 10.1145/3300178</h5>
+
+						<h5>  Yu, J. and Moffatt, K. (2019).
+						<a href="current/pubs/Yu-GI19", target="_blank">
+						Towards Inclusive Online Social Technology for Older Adults: Research-derived Guidelines and Redesign of Facebook</a>
+						<em>Poster Presented at Graphics Interface 2019, GI'19</em>,
+						May 28–31, Kingston, ON.</h5>
+						
+						<h5>  Wang, C., Pang, C. Moffatt, K, Leung, R., and McGrenere, J. (2019).
+						<a href="current/pubs/Wang-GI19", target="_blank">
+						Help Kiosk 2.0: A Tabletop Display to Support Older Adults in Learning How to Use Smart Devices for Personal Health Information Management</a>
+						<em>Poster Presented at Graphics Interface 2019, GI'19</em>,
+						May 28–31, Kingston, ON.</h5>						
+						
+						</div></li>
+							
+						<li><h2 class="cbp-nttrigger">2018</h2><div class="cbp-ntcontent">
+						
+						<h5>Dai, J., Granikov, V., El Sherif, R., Grguric, E., Turcotte, E., and Pluye, P. (2018).
+						<a href="https://content.iospress.com/articles/education-for-information/efi180215", target="_blank">
+						Patient information aid: An innovative educational program to improve outcomes of
+						online consumer health information.</a>
+						<em>Education for Information</em>, pre-press: 1-9. doi: 10.3233/EFI-180215</h5>
+
+						
+						<h5>Dai, J. and Moffatt, K. (2018).
+						Beyond communication and social interaction: A review on designing for people with dementia.
+						<em>ACM CHI 2018 Workshop, HCIxDementia</em>, April 21-22, 2018, Montreal, QC, Canada.</h5>
+						
+						<h5>  Sultana, A., Xu, J., and Moffatt, K. (2018).
+						Towards accessible touchscreen interfaces for older adults: Modeling and visualizing finger trajectories.
+						<em>ACM CHI 2018 Workshop, Designing Interaction for the Ageing Populations</em>, April 22, 2018, Montreal, QC, Canada.</h5>
+						
+						</div></li>
+						<li><h2 class="cbp-nttrigger">2017</h2><div class="cbp-ntcontent">
+						
+						<h5>Pontual Falcão, T., Yong, X., Sulmont, E., Ferguson, R. D., and Moffatt, K. (2017).
+						<a href="https://dl.acm.org/authorize?N667041", target="blank">
+						A Digital Pen and Paper Email System for Older Adults.</a>
+						<em>Adjunct Publication of the 30th Annual ACM Symposium on User Interface Software and Technology, UIST '17</em>,
+						189&ndash;191. doi: https://doi.org/10.1145/3131785.3131827
+						</h5>
+						
+						<h5>Cormier, M., Mann, R., Moffatt, K., and Cohen, R. (2017).
+						<a href="https://ieeexplore.ieee.org/document/8287714/", target="blank">
+						Towards an improved vision-based web page segmentation algorithm.</a>
+						<em>Proceedings of 14th Conference on Computer and Robot Vision, CRV '17</em>, 345&ndash;352. doi: 10.1109/CRV.2017.38</h5>
+							
+						<h5>Findlater, L., Moffatt, K., Froehlich, J., Malu, M., and Zhang, J. (2017).
+						<a href="http://dl.acm.org/authorize?N37221", target="_blank">
+						Comparing touchscreen and mouse input performance by people with and without upper body motor impairments. </a>
+						<em>Proceedings of the 35th Annual ACM Conference on Human Factors in Computing Systems, CHI ’17</em>,  6056&ndash;6061. doi: 10.1145/3025453.3025603</h5>
+						
+						<h5>Findlater, L., Zhang, J., Froehlich, J., and Moffatt, K. (2017).
+						<a href="http://dl.acm.org/authorize?N37222", target="_blank">
+						Differences in crowdsourced vs. lab-based mobile and desktop input performance data.</a>
+						<em>Proceedings of the 35th Annual ACM Conference on Human Factors in Computing Systems, CHI ’17</em>, 6813&ndash;6824. doi: 10.1145/3025453.3025820</h5>
+						
+						<h5>Ferguson, R., Crist, E., and Moffatt, K. (2017).
+						<a href="https://doi.org/10.1093/iwc/iww018", target="_blank">
+						A framework for negotiating ethics in sensitive settings: Hospice as a case study.</a>
+						<em>Interacting with Computers, Special Issues on Co-Constructing Meaning: Ethics Matter(s) in Design Research</em>,
+						29(1):10&ndash;26. doi: 10.1093/iwc/iww018</h5>
+						
+						<h5> Moffatt, K., Pourshahid, G., and Baecker, R. M. (2017).
+						<a href="hhttps://rdcu.be/6eHS", target="_blank">
+						Augmentative and alternative communication devices for aphasia: the emerging role of "smart" mobile devices.</a>
+						<em>Universal Access in the Information Society</em>, 16(1):115&ndash;128. doi: 10.1007/s10209-015-0428-x</h5>
+						
+						<h5> Sultana, A. and Moffatt, K. (2017).
+						Target Selection Difficulties of Older Adults in Small Touch Screen Devices.
+						<em>ACM CHI 2017 Workshop, Designing Mobile Interactions for the Ageing Populations</em>, May 6, 2017, Denver, CO.</h5>
+
+						<h5> Ferguson, R., Yong, X., Pontual Falc&atilde;o, T., and Moffatt, K. (2017).
+						"I Crack My Brain": the Gap Between Older Adults' Efforts and Participatory Design Demands.
+						<em>ACM CHI 2017 Workshop, Problems in Practice: Understanding Design Research by Critiquing Cases</em>, May 7, 2017, Denver, CO.</h5>		
+									
+						</div></li>
+						<li><h2 class="cbp-nttrigger">2016</h2><div class="cbp-ntcontent">
+						
+						<h5>Di Palma, P., Moffatt, K., and Evans, M.M. (2016, October 9).
+						<a href="current/pubs/DiPalma-2016.pdf">Supporting our ageing workforce: Competitor profiling
+						and market analysis </a> [White paper]. Retrieved from <a href="current/pubs/DiPalma-2016.pdf">http://act.mcgill.ca/pubs/DiPalma-2016.pdf</a></h5>
+						
+						<h5>Williams, K., Moffatt, K., Hong, J., Faroqi-Shah, Y., and Findlater, L. (2016).
+						<a href="http://dl.acm.org/authorize?N25020", target="_blank">The cost of turning heads: A comparison of a head-worn display
+						to a smartphone for supporting persons with aphasia in conversation.</a>
+						<em>Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility, ASSETS '16.</em>,
+						111&ndash;120. doi: 10.1145/2982142.2982165</h5>
+												
+						<h5> Cormier, M., Mann, R., Cohen, R., and Moffatt, K. (2016).
+						<a href="https://doi.org/10.1109/WI.2016.0124", target="_blank"> Classification via
+						hidden Markov trees for a vision-based approach to conveying webpages to users with assistive needs.</a>
+						<em> Proceedings of the 2016 IEEE/WIC/ACM International Conference on Web Intelligence, WI ’16.</em>,
+						695&ndash;700. doi: 10.1109/WI.2016.0124</h5>
+						
+						<h5> Orji, R. and Moffatt, K. (2016).
+						<a href="http://jhi.sagepub.com/content/early/2016/05/30/1460458216650979", target="_blank">
+						Persuasive technology for health and wellness: State-of-the-art and emerging trends.</a>
+						<em>Health Informatics Journal</em>, OnlineFirst. doi: 10.1177/1460458216650979</h5>
+						
+						<h5> Cormier, M., Moffatt, K., Cohen, R., and Mann, R. (2016).
+						<a href="http://dx.doi.org/10.1016/j.cviu.2016.02.007", target="_blank">
+						Purely vision-based segmentation of web pages for assistive technology.</a>
+						<em>Computer Vision and Image Understanding: Special issue on Assistive Computer Vision and Robotics -
+						"Assistive Solutions for Mobility, Communication and HMI"</em>, 148: 46&ndash;66. doi: 10.1016/j.cviu.2016.02.007</h5>
+						
+						<h5> Moffatt, K., Shim, N., Birnholtz, J., and Baecker, R. M. (2016).
+						<a href="http://www.crcnetbase.com/doi/abs/10.1201/b21564-11", target="_blank">
+						Testing the usability, usefulness, and user experience of tabletalk poker, a social game for seniors.</a>
+						In Garcia-Ruiz, M. A. (Ed), <em>Games User Research: A Case Study Approach </em> (pp. 241&ndash;270).
+						Canada: A.K. Peters/CRC Press. doi: 10.1201/b21564-11 </h5>
+						
+						<h5> Demmans Epp, C., McEwen, R., Campigotto, R., and Moffatt, K. (2016).
+						<a href="https://rdcu.be/5xYh", target="_blank">
+						Information practices and user interfaces: Student use of an ios application in special education.</a>
+						<em>Education and Information Technologies</em>, 21(5): 1433&ndash;1456. doi: 10.1007/s10639-015-9392-6</h5>
+						
+						<h5>Jones, W., Bellotti, V., Capra, R., Dinneen, J. D., Mark, G., Marshall, C., Moffatt, K., Teevan, J., and VanKleek, M. (2016).
+						<a href="http://dl.acm.org/authorize?N15772", target="_blank">
+						For richer, for poorer, in sickness or in health... the long-term management of personal information.</a>
+						<em>Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, CHI EA '16,</em>
+						3508&ndash;3515. doi: 10.1145/2851581.2856481</h5>
+						
+						</div></li>
+						<li><h2 class="cbp-nttrigger">2015</h2><div class="cbp-ntcontent">
+						
+						<h5> Williams, K., Moffatt, K., McCall, D., and Findlater, L. (2015).
+						<a href="http://dl.acm.org/authorize?N15511" title="Designing Conversation Cues on a Head-Worn Display to Support Persons with Aphasia", target="_blank">
+						Designing conversation cues on a head-worn display to support persons with aphasia</a>
+						<em>Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, CHI '15,</em>
+						231&ndash;240. doi: 10.1145/2702123.2702484. </h5>
+						
+						</div></li>
+						<li><h2 class="cbp-nttrigger">2014</h2><div class="cbp-ntcontent">
+						
+						<h5>  Ferguson, R., Massimi, M. Crist, E., and Moffatt, K. (2014).
+						<a href="http://dl.acm.org/authorize?N15773", target="_blank">
+						Craving, Creating, and Constructing Comfort: Insights and Opportunities for Technology in Hospice. </a>
+						<em>Proceedings of the 17th ACM Conference on Computer Supported Cooperative Work & Social Computing, CSCW '14,</em>
+						1479&ndash;1490. <strong style="color:#73d0da;"> ACM CSCW Best paper award. </strong> </h5>
+						
+						<h5>Sultana, A. and Moffatt, K. (2014). Pen-based error detection with supervised machine learning algorithms.
+						<em>Poster presentation at Graphics Interface 2014, GI '14.</em> (07/05/2014, Montreal, QC)</h5>
+						
+						</div></li>
+						<li><h2 class="cbp-nttrigger">2013</h2><div class="cbp-ntcontent">
+						
+						<h5>Moffatt, K. (2013). <a href="http://dl.acm.org/authorize?N15774", target="_blank">
+						Older-adult HCI: Why should we care?</a>
+						<em>Interactions</em>, 20(4), 72&ndash;75.</h5>
+						
+						<h5>Ferguson, R., Moffatt, K., and Massimi, M. (2013). Formal and informal messages: Early reflections on how context
+						and content influence ICT use at the end-of-life. <em>ACM CSCW 2013 Workshop, Beyond Formality: Informal Communication in
+						Health Practices</em>, Feb 24, 2013, San Antonio, TX.</h5>
+						
+						<h5>Sultana, A. and Moffatt, K. (2013).
+						<a href="http://onlinelibrary.wiley.com/doi/10.1002/meet.14505001113/abstract", target="_blank">
+						Automatic error detection from pointing device input data.</a>
+						<em>Poster presentation at the 76th ASIS&amp;T Annual Meeting: Beyond the Cloud: Rethinking Information Boundaries, ASIST '13</em>.
+						doi: 10.1002/meet.14505001113. (04/11/2013, Montreal, QC)</h5>
+						 
+						<h5>Ferguson, R., Massimi, M., Crist, E., and Moffatt, K. (2013). Supporting communication at the end-of-life:
+						Comparing ICT use by families in hospice settings. <em>Poster presentation at the Annual General Meeting of the
+						GRaphics, ANimation and New meDia Network of Centers of Excellence, GRAND '13.</em> (14/05/2013, Toronto, ON)</h5>
+						
+						<h5>Truong, K., Hirano, S., Hayes, G., and Moffatt, K. (2013). <a href="https://tspace.library.utoronto.ca/handle/1807/35208", target="_blank">
+						2-thumb gesture: The design & evaluation of a non-sequential bi-manual gesture based text input technique for touch tablets.</a>
+						<em>Technical Report KMD-2013-2</em>, University of Toronto, KMDI. (8 pages)</h5>
+						
+						</div></li>
+						<li><h2 class="cbp-nttrigger">Older</h2><div class="cbp-ntcontent">
+						
+						<h2>2012</h2>
+						
+						<h5> Demmans Epp, C., Djordjevic, J., Wu, S., Moffatt, K., and Baecker, R.M. (2012). <a href="http://dl.acm.org/authorize?N15786", target="_blank">
+						Towards providing just-in-time vocabulary support for assistive and augmentative communication</a>. <em>Proceedings of the International
+						Conference on Intelligent User Interfaces, IUI '12</em>, 33&ndash;36.</h5>
+						
+						<h5>Moffatt K., David, J., and Baecker, R. M. (2012). <a href="http://www.springer.com/computer/general+issues/book/978-1-4471-4191-4", target="_blank">
+						Connecting Grandparents and Grandchildren.</a> In C. Neustaedter, S. Harrison, and A. Sellen (Eds.), <em> Connecting Families: The Impact
+						of New Communication Technologies on Domestic Life.</em>  London: Springer, 173&ndash;193.</h5>
+						
+						<h5>Baecker, R. M., Moffatt, K., and Massimi, M. (2012). <a href="http://dl.acm.org/authorize?N15785", target="_blank">
+						Technologies for aging gracefully.</a> <em>Interactions, 19(3),</em> pp. 32&ndash;36. </h5>
+						
+						<h2>2011</h2>
+						
+						<h5>Dawson, J., McGrenere, J., Munzner, T., Moffatt, K., and Findlater, L. (2011).
+						<a href="http://www.cs.ubc.ca/cgi-bin/tr/2011/TR-2011-10", target="_blank"> Ephemeral Paths: Gradual Fade-In as a Visual Cue for Subgraph Highlighting.</a>
+						Technical Report TR-2011-10, Department of Computer Science, University of British Columbia. </h5>
+						
+						
+						
+						<h2>2010</h2>
+						
+						<h5>Moffatt, K.,  and McGrenere, J. (2010). <a href="http://dl.acm.org/authorize?N15788", target="_blank">Steadied-Bubbles: Combining techniques to address
+						pen-based pointing errors for younger and older adults.</a> <em>Proceedings of the 2010 Conference on Human Factors in Computing Systems,
+						CHI '10</em>, 1125&ndash;1134. </h5>
+						
+						<h5>Shim, N., Baecker, R., Birnholtz, J., and Moffatt, K. (2010). <a href="http://dl.acm.org/authorize?N15787", target="_blank">TableTalk Poker: An online
+						social gaming environment for seniors.</a> <em>Proceedings of the 2010 Conference on Future Play, FuturePlay '10</em>, 98&ndash;104. </h5>
+						
+						<h5>McGrenere, J., Bunt, A., Findlater, L., and Moffatt K. (2010). Generalization in human-computer interaction research. In M. Banich and
+						D. Caccamise (Eds.), <em> Generalization of Knowledge: Multidisciplinary Perspectives. </em> New York: Psychology Press, 277&ndash;295.</h5>
+						
+						<h5>Moffatt, K. (2010). Connecting with college-aged grandchildren&mdash;In search of common ground. <em>GROUP 2010 Workshop on Connecting
+						Families</em>, Nov 6, 2010, Sanibel Island, FL.</h5>
+						
+						<h5>Baecker, R., Benjamin, A., Moffatt, K., Macaranas, E., Shihipar, T., Massimi, M., Ptak, D., David, J., Birnholtz, J., Gromala, D.,
+						Furlan, A., Boscart, V. (2010).Connecting physically and socially isolated individuals to their families. <em>GROUP 2010 Workshop on
+						Connecting Families</em>, Nov 6, 2010, Sanibel Island, FL.</h5>
+						
+						<h5>Baecker, R, Levy, A, Massimi, M, Tonon, K, Watson, M, Fenwick, K, Scott, W, Rochon, E, Mulholland, D, Laird, L, Black, S, Moffatt, K,
+						Poorshahid, G. (2010). Context-aware mobile phones to aid seniors with word recall and production. In <em>Proceedings of the International
+						Society for Gerontechnology 7<sup>th</sup> World Conference</em>.</h5>
+						
+						<h5>Baecker, R, Shim, N, Tonon, K, Pandeliev, V, Birnholtz, J, Stern, Y, Steinerman, J, Moffatt, K. (2010). "Serious" online gaming
+						environments to enhance brain fitness in senior citizens. In <em>Proceedings of the International Society for Gerontechnology
+						7<sup>th</sup> World Conference</em>.</h5>
+						
+						<h5>David, J., Baecker, R., Benjamin, A., Moffatt, K., Macaranas, E., Shihipar, T., Massimi, M., Ptak, D., Birnholtz, J., Gromala, D.,
+						Furlan, A., Boscart, V. (2010). Connecting physically and socially isolated individuals to their families.<em>Toronto Rehab's 6th Annual
+						Research Day.</em> <strong style="color:#73d0da;"> Best Interactive Presentation award.</strong> </h5>
+						
+						<h5>Moffatt, K. (2010). <a href="http://www.cs.ubc.ca/labs/imager/th/2010/Moffatt2010/", target="_blank"> Addressing age-related pen-based target
+						acquisition difficulties.</a> PhD Thesis, University of British Columbia. </h5>
+						
+						<h2>2009</h2>
+						
+						<h5>Moffatt, K. and McGrenere, J. (2009). <a href="http://dl.acm.org/authorize?N15789", target="_blank"> Exploring methods to improve pen-based menu selection
+						for younger and older adults.</a> <em>Transactions on Accessible Computing, 2(1),</em> pp. 3:1&ndash;3:32. </h5>
+						
+						<h5>Findlater, L., Moffatt, K.,  McGrenere, J., and Dawson, J. (2009). <a href="http://dl.acm.org/authorize?N15780", target="_blank"> Ephemeral adaptation: The
+						use of gradual onset to improve menu selection performance. </a> <em>Proceedings of the 2009 Conference on Human Factors in Computing Systems,
+						CHI'09</em>, 1655&ndash;1664. <strong style="color:#73d0da;"> ACM CHI Best paper award. </strong> </h5>
+						
+						<h2>2008</h2>
+						
+						<h5>Trewin, S., Keates, S., and Moffatt, K. (2008). <a href="http://www.ncbi.nlm.nih.gov/pubmed/18416515", target="_blank"> Individual responses to a method of cursor
+						assistance.</a> <em> Disability and Rehabilitation: Assistive Technologies, 3(1),</em> pp. 2&ndash;21.</h5>
+						
+						<h5>Moffatt, K.,  Yuen, S., and McGrenere, J. (2008). <a href="http://dl.acm.org/authorize?N15781", target="_blank"> Hover or tap? Supporting pen-based menu navigation
+						for older adults.</a> <em>Proceedings of the 10th International ACM SIGACCESS Conference on Computers and Accessibility, ASSETS'08</em>, 51&ndash;58.</h5>
+						
+						<h5>Moffatt, K. (2008) <a href="http://dl.acm.org/authorize?N15782", target="_blank"> Increasing the accessibility of pen-based technology: An investigation of
+						age-related target acquisition difficulties. </a> (CHI 2008 Doctoral Consortium). <em>CHI '08 Extended Abstracts on Human Factors in Computing
+						Systems</em>, 2625&ndash;2628. </h5>
+						
+						<h2>2007</h2>
+						
+						<h5>Moffatt, K., and McGrenere, J. (2007). <a href="http://dl.acm.org/authorize?N15783", target="_blank">Slipping and drifting: Using older adults to uncover
+						pen-based target acquisition difficulties.</a> <em>Proceedings of the 9th International ACM SIGACCESS Conference on Computers and Accessibility,
+						ASSETS '07</em>, 11&ndash;18.<strong style="color:#73d0da;">  ACM SIGACCESS best student paper award. </strong> </h5>
+						
+						<h5>Moffatt, K. (2007) <a href="http://dl.acm.org/authorize?N15784", target="_blank"> Increasing the accessibility of pen-based technology: An investigation of
+						age-related target acquisition difficulties. </a> (ASSETS 2007 Doctoral Consortium). <em>ACM SIGACCESS Accessibility and Computing Newsletter,
+						89</em>, 28&ndash;34.</h5>
+						
+						<h5>Moffatt, K., Nikolova, S., Ma, X., Boyd-Gaber, J. (2007) The Aphasia Project: Designing technology for and with individuals who have aphasia.
+						<em>Microsoft Workshop on Intelligent Systems for Assisted Cognition</em>, October 12&ndash;13, 2007, Rochester, NY.</h5>
+						
+						<h2>2006</h2>
+						
+						<h5>Trewin, S., Keates, S., and Moffatt, K. (2006). <a href="http://dl.acm.org/authorize?N15795", target="_blank"> Developing Steady Clicks: A method of cursor
+						assistance for people with motor impairments.</a> <em>Proceedings of the 8th International ACM SIGACCESS Conference on Computers and Accessibility,
+						ASSETS '06</em>, 26&ndash;33.</h5>
+						
+						<h5>Boyd-Graber, J., Nikolova, S., Moffatt, K., Kin, K., Lee, J., Mackey, L., Tremaine, M., and Klawe, M. (2006).
+						<a href="http://dl.acm.org/authorize?N15796", target="_blank"> Participatory design with proxies: Developing a desktop-PDA system to support people with aphasia.</a>
+						<em>Proceedings of the 2006 Conference on Human Factors in Computing Systems, CHI '06</em>, 151&ndash;160.</h5>
+						
+						<h5>Moffatt, K., Findlater, L., and Allen, M. (2006).
+						<a href="http://www.cs.ubc.ca/~joanna/CHI2006Workshop_CognitiveTechnologies/positionPapers/15_CHI2006_workshop_moffatt.pdf", target="_blank">Generalizability in
+						research with cognitively impaired individuals.</a> <em>CHI 2006 Workshop on Designing for People With Cognitive Impairments, </em> April 22&ndash;23,
+						Montreal, QC. </h5> 
+						
+						<h2>2005</h2>
+						
+						<h5>Tee, K., Moffatt, K., Findlater, L., MacGregor, E., McGrenere, J., Purves, B., and Fels, S. (2005). <a href="http://dl.acm.org/authorize?N15797", target="_blank">
+						A visual recipe book for persons with language impairments.</a> <em>Proceedings of the 2005 Conference on Human Factors in Computing Systems,
+						CHI '05</em>. 501&ndash;510. </h5>
+						
+						<h2>2004</h2>
+						
+						<h5>Moffatt, K., McGrenere, J., Purves, B., and Klawe, M. (2004). <a href="http://dl.acm.org/authorize?N15799", target="_blank"> The participatory design of
+						a sound and image enhanced daily planner for people with aphasia.</a> <em>Proceedings of the 2004 Conference on Human Factors in Computing
+						Systems,  CHI '04</em>, 407&ndash;414. </h5>
+						
+						<h5>Moffatt, K., and Davies, R. (2004). <a href="http://dl.acm.org/authorize?N15798", target="_blank"> The Aphasia Project: Designing technology for and with
+						individuals who have aphasia.</a> In <em>ACM SIGACCESS Accessibility and Computing Newsletter, 80</em>, 11&ndash;17.</h5>
+						
+						<h5>Moffatt, K. (2004). <a href="http://www.cs.ubc.ca/labs/imager/th/2003/Moffatt2004/", target="_blank">Designing technology for and with special populations:
+						An exploration of participatory design with people with aphasia.</a> MSc Thesis, University of British Columbia. </h5>
+						
+						<h2>2003</h2>
+						
+						<h5>McGrenere, J., Davies, R., Findlater, L., Graf, P., Klawe, M., <strong> Moffatt, K.</strong>, Purves, B., and Yang. S. (2003).
+						<a href="http://dl.acm.org/authorize?N15790", target="_blank">Insights from the aphasia project: Designing technology for and with people who have aphasia.</a>
+						<em>Proceedings of ACM Conference on Universal Usability, CUU '03</em>, 112&ndash;118. </h5>
+						
+						<h5>Moffatt, K., and Findlater, L. (2003). The Aphasia Project. <em>Dagstuhl Seminar 03481 on eAccessibility: new Devices, new Technologies, and
+						new Challenges in the Information Society,</em> November 23&ndash;27, Wadern, Germany.</h5>
+						
+						<h5>Moffatt, K., Davies, R. , Findlater, L.,  and McGrenere, J. (2003). <a href="http://www.cs.ubc.ca/labs/imager/tr/2003/moffatt2003a/", target="_blank">
+						Participatory design with aphasic individuals.</a> Poster Presentation, <em>Graphics Interface 2003</em>. </h5>
+						</div></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+
+
+		
+		
+		
+		
+		<section id="about">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8 nopadding">
+						<div class="features-slider">
+								<ul class="slides" id="featuresSlider">
+									<li>
+										<h1>About Us</h1>
+										<p>We are a research group within the <a href="http://mcgill.ca/SIS">McGill School of Information Studies</a>
+										studying, designing, and building new technologies that can better accommodate a diversity of needs.
+										Funding sources for our work include <a href="http://www.nserc-crsng.gc.ca">NSERC</a>,
+										<a href="http://www.chairs-chaires.gc.ca/home-accueil-eng.aspx">CRC</a>, <a href="http://agewell-nce.ca/">
+										AGE-WELL</a>, <a href="http://www.fqrnt.gouv.qc.ca/">FQRNT</a>, <a href="http://grand-nce.ca/">GRAND</a>, and
+										<a href="http://research.google.com/university/relations/research_awards.html">Google</a>.</p>
+										
+										<p>Located in the <a href="http://www.mcgill.ca/sis/">McGill School of Information Studies</a> at 3661 Peel Street, 
+										you can reach us by transit via either the <a href="http://www.stm.info/en/info/networks/metro">metro</a> to Peel station,
+										or the 144 and 107 <a href="http://www.stm.info/en/info/networks/bus/local">bus lines</a>.</p>
+										
+										<p><a href="#people" class="arrow-btn">Meet the team! <i class="fa fa-long-arrow-right"></i></a></p>
+									</li>
+								</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-4 nopadding" style="height: 400px">
+						<div class="map-wrap">
+							<div class="map-overlay" id="map-overlay" onClick=overlayOff();></div><!-- wrap map to turn off mouse scroll & turn it back on on click -->
+							<iframe class="map" onMouseout=overlayOn(); src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.304219676894!2d-73.58260248438208!3d45.503954238810756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a38c23d6705%3A0xf0a80262503aec65!2s3661+Rue+Peel%2C+Montr%C3%A9al%2C+QC+H3A+1X1!5e0!3m2!1sen!2sca!4v1466699064110" allowfullscreen></iframe>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="image-grid" id="people">	
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-lg-2">			
+						<figure>
+							<img src="current/bios/karyn.jpg" alt="Headshot Karyn Moffatt">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/karyn.html">
+									<p>Karyn Moffatt</p>
+									<p>Associate Professor</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/carolyn.jpg" alt="Headshot Carolyn Pang">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/carolyn.html">
+									<p>Carolyn Pang</p>
+									<p>Postdoctoral Researcher</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/robert.png" alt="Headshot Robert Ferguson">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/robert.html">
+									<p>Robert Ferguson</p>
+									<p>PhD Candidate</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/afroza.jpg" alt="Headshot Afroza Sultana">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/afroza.html">
+									<p>Afroza Sultana</p>
+									<p>PhD Candidate</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/allan.jpg" alt="Headshot Allan Yong">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/allan.html">
+									<p>Allan Yong</p>
+									<p>PhD Student</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">			
+						<figure>
+							<img src="current/bios/mauricio.png" alt="Headshot Mauricio Fontana de Vargas">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/mauricio.html">
+									<p>Mauricio Fontana de Vargas</p>
+									<p>PhD Candidate</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/jiamin.jpg" alt="Headshot Jiamin Dai">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/jiamin.html">
+									<p>Jiamin (Carrie) Dai</p>
+									<p>PhD Student</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/daniele.jpg" alt="Headshot Daniele Nascimento">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/daniele.html">
+									<p>Daniele Nascimento</p>
+									<p>Affiliate Member, <br> PhD Candidate</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/collin.jpeg" alt="Headshot Collin Wang">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/collin.html">
+									<p>Collin Wang</p>
+									<p>MISt Student</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/jing.png" alt="Headshot Jing Yu">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/jing.html">
+									<p>Jing Yu</p>
+									<p>MISt Student</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3 col-lg-2">			
+						<figure>
+							<img src="current/bios/shamila.png" alt="Headshot Shamila Ahmed Hassim">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/shamila.html">
+									<p>Shamila Ahmed Hassim</p>
+									<p>MISt Student</p>
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3 col-lg-2">		
+						<figure>
+							<img src="current/bios/alumni.png" alt="Alumni">
+							<figcaption>
+							<div class="caption-content">
+								<a class="fancybox fancybox.iframe" href="current/bios/alumni.html">
+									<p>ACT Lab</p>
+									<p>Alumni</p>
+									
+								</a>
+							</div>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+
+		
+		<section class="more" id="MoreInfo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center wp4">
+						<h1>Want to know more?</h1>
+						<a href="mailto:karyn.moffatt@mcgill.ca" class="email-btn">Email us!<i class="fa fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h1 class="footer-logo">
+						<img src="current/img/ACTLabLogo-footer.png" alt="Footer Logo">
+						</h1>
+						<p>Contents © Accessible Computing Research Group 2016<br>
+						HTML Template © Boxify 2015 - <a href="http://tympanus.net/codrops/licensing/">Licence</a> - Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
+					</div>
+					<div class="col-md-7">
+						<ul class="footer-nav">
+							<li><a href="#news">News</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#publications">Publications</a></li>
+							<li><a href="#about">About</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="overlay overlay-boxify">
+			<nav>
+				<ul>
+					<li><a href="#news"><i class="fa fa-bullhorn"></i>News</a></li>
+					<li><a href="#projects"><i class="fa fa-cubes"></i>Projects</a></li>
+				</ul>
+				<ul>
+					<li><a href="#publications"><i class="fa fa-pencil-square-o"></i>Publications</a></li>
+					<li><a href="#about"><i class="fa fa-users"></i>About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="current/js/min/toucheffects-min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="current/js/flickity.pkgd.min.js"></script>
+		<script src="current/js/jquery.fancybox.pack.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!--<script src="js/retina.js"></script>-->
+		<script src="current/js/waypoints.min.js"></script>
+		<script src="current/js/bootstrap.min.js"></script>
+		<script src="current/js/min/scripts-min.js"></script>
+		<script src="current/js/min/jquery.cbpNTAccordion.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpNTAccordion( [options] );
+				- destroy:
+				$( selector ).cbpNTAccordion( 'destroy' );
+				*/
+
+				$( '#cbp-ntaccordion' ).cbpNTAccordion();
+
+			} );
+		</script>
+
+		<!-- A transparent overlay covers the embedded google map, preventing it from
+		receiving scroll events. Clicking on the overlay turns off its pointerEvents,
+		resulting in these events getting passed on to the map below and enabling the user
+		to interact with the map. Once the mouse leaves the map area, the overlay is reenabled.
+		See the onClick and onMouseout handlers in the HTML above -->
+		<script>
+			function overlayOff(){
+				document.getElementById("map-overlay").style.pointerEvents = "none";
+			};
+			function overlayOn(){
+				document.getElementById("map-overlay").style.pointerEvents = "auto";
+			};
+		</script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-79801806-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
